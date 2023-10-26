@@ -1,0 +1,54 @@
+package com.sunbeam;
+
+public class Employee {
+	private int empid;
+	private String name;
+	private double salary;
+	
+	
+	public Employee(int empid, String name, double salary) {
+		this.empid = empid;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	public int getEmpid() {
+		return empid;
+	}
+
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	
+	public static int LinearSearchExample() {
+	    public static Employee linearSearchById(Employee[] employees, int empId) {
+	        for (Employee employee : employees) {
+	            if (employee.getEmpid() == empId) {
+	                return employee;
+	            }
+	        }
+	        return null; // Employee not found
+	    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

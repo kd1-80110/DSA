@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+public class BinarySearchDescending {
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

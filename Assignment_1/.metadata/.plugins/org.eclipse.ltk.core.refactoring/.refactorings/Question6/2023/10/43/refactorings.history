@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.sunbeam.RAnkOfNumber.java&apos; to &apos;RankOfNumber.java&apos;&#x0A;- Original project: &apos;Question6&apos;&#x0A;- Original element: &apos;com.sunbeam.RAnkOfNumber.java&apos;&#x0A;- Renamed element: &apos;com.sunbeam.RankOfNumber.java&apos;" description="Rename compilation unit &apos;RAnkOfNumber.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.sunbeam{RAnkOfNumber.java" name="RankOfNumber.java" references="false" stamp="1698332438650" version="1.0"/>
+</session>

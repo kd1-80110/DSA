@@ -1,0 +1,31 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class LinearSearch {
+	
+	public static int linear_Search(int arr[],int n,int key) {
+		for(int i=0;i<n;i++) {
+			if(arr[i]==key)
+				return i;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		int arr[]= {10,20,30,40,60,20,90,100};
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter key to be searched : ");
+		int key=sc.nextInt();
+		
+		int index=linear_Search(arr, arr.length, key);
+		if(index!=-1)
+			System.out.println("Key is found at index : "+ index);
+		else
+			System.out.println("Key is not found");
+		
+		sc.close();
+
+	}
+
+}

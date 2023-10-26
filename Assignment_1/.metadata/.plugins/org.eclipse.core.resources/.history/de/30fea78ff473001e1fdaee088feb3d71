@@ -1,0 +1,21 @@
+package com.sunbeam;
+
+public class Employee {
+	private int empid;
+	private String name;
+	private double salary;
+	
+	
+	public Employee(int empid, String name, double salary) {
+		this.empid = empid;
+		this.name = name;
+		this.salary = salary;
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

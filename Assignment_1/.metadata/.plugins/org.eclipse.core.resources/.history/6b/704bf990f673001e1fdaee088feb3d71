@@ -1,0 +1,29 @@
+package com.sunbeam;
+
+public class TestEmployee {
+	
+	
+	    public static Employee linearSearchById(Employee[] employees, int empId) {
+	        for (Employee employee : employees) {
+	            if (employee.getEmpid() == empId) {
+	                return employee;
+	            }
+	        }
+	        return null;//Emp not found
+	    }
+	    
+//	    public 
+	    
+
+	public static void main(String[] args) {
+	    	Employee[] employees = new Employee[4];
+
+	        // Create employees and add them to the array
+	        employees[0] = new Employee(101, "Suyash", 50000.0);
+	        employees[1] = new Employee(102, "Bob", 60000.0);
+	        employees[2] = new Employee(103, "Charlie", 55000.0);
+	        employees[3] = new Employee(104, "David", 62000.0);
+
+	}
+
+}

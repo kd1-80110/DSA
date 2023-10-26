@@ -1,0 +1,22 @@
+package com.sunbeam;
+
+public class TestEmployee {
+	
+	public class LinearSearchExample {
+	    public Employee linearSearchById(Employee[] employees, int empId) {
+	        for (Employee employee : employees) {
+	            if (employee.getEmpid() == empId) {
+	                return employee;
+	            }
+	        }
+	        return null; 
+
+	        
+	    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

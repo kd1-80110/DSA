@@ -1,0 +1,29 @@
+package com.sunbeam;
+
+public class BinarySearchDescending {
+	public static int binary_search_descending(key) {
+		int left = 0, right = arr.length - 1, mid;
+		int count=0;
+
+		while (left <= right) {
+			count++;
+			mid = (left + right) / 2;
+
+			if (key == arr[mid]) {
+				System.out.println("Comparisons done "+count);
+				return mid;
+			} else if (key < arr[mid])
+				right = mid - 1;
+			else
+				left = mid + 1;
+		}
+		System.out.println("Comparisons done "+count);
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

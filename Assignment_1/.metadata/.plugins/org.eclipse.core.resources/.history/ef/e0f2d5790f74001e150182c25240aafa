@@ -1,0 +1,45 @@
+package com.sunbeam;
+
+public class FirstNonRepeatingElement {
+	
+	public static int findFirstNonRepeatingElement(int arr[]) {
+//        int[] counts = new int[25]; // Assuming input elements are within the range 0-255
+//
+//        // Count the occurrences of each element
+//        for (int num : arr) {
+//            counts[num]++;
+//        }
+//
+//        // Find the first non-repeating element
+//        for (int num : arr) {
+//            if (counts[num] == 1) {
+//                return num;
+//            }
+//        }
+
+        // If no non-repeating element is found, return a default value (you can change this to suit your needs)
+//        return -1;
+		int count =0;
+		for (int i=0;i<arr.length;i++) {
+			for(int j=i+1;j<arr.length;j++) {
+				if(arr[i]==arr[j]) {
+				count++;
+				break;
+				}
+			}
+			if(count==0) {
+				System.out.println("The first non-repeating element is: " + result);
+			}
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, -1, 2, 1, 0, 4, -1, 7, 8};
+        findFirstNonRepeatingElement(arr);
+
+        
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class BinarySearch {
+	c
+
+	public static void main(String[] args) {
+		int arr[] = { 11, 22, 33, 44, 55, 66, 77, 88, 99 };
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Key to be searched: ");
+		int key = sc.nextInt();
+
+		int index = binary_search(arr, key);
+		if (index != -1)
+			System.out.println("Key ids found at index " + index);
+		else
+			System.out.println("Key is not found");
+
+	}
+
+}
