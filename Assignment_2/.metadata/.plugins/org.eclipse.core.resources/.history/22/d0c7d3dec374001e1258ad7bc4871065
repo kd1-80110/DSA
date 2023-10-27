@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+import java.util.Iterator;
+
+public class DescInsertionSort {
+	public static void descInsertionSort(int arr[],int N) {
+		int count=0;
+		for (Iterator iterator = collection.iterator(); iterator.hasNext();) {
+			type type = (type) iterator.next();
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

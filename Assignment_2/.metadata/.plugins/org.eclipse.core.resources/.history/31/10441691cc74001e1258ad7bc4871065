@@ -1,0 +1,17 @@
+package com.sunbeam;
+
+public class Queue {
+	private int arr[];
+	private int rear;
+	private int front;
+	private final int size;
+	public Queue(int size) {
+		this.size = size;
+		this.arr=new int[size];
+		
+		
+	}
+	
+	
+
+}

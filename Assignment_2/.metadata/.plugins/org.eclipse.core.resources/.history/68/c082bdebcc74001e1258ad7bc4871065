@@ -1,0 +1,27 @@
+package com.sunbeam;
+
+public class Queue {
+	private int arr[];
+	private int rear;
+	private int front;
+	private final int size;
+	public Queue(int size) {
+		size = size;
+		arr=new int[size];
+		front=0;
+		rear=0;
+	}
+	public void push(int data) {
+		rear++;
+		arr[rear]=data;
+	}
+	public void pop() {
+		front++;
+	}
+	public int peek() {
+		
+	}
+	
+	
+
+}

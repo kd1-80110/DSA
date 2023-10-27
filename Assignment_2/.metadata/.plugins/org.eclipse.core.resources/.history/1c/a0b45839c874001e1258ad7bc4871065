@@ -1,0 +1,21 @@
+package com.sunbeam;
+
+public class EmployeeTest {
+	 public static void insertionSort(Employee[] employees) {
+	        int n = employees.length;
+	        for (int i = 1; i < n; i++) {
+	            Employee key = employees[i];
+	            int j = i - 1;
+	            while (j >= 0 && employees[j].getSalary() > key.getSalary()) {
+	                employees[j + 1] = employees[j];
+	                j = j - 1;
+	            }
+	            employees[j + 1] = key;
+	        }
+	    }
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+public class BubbleSort {
+	public static void bubbleSort(int arr[],int N) {
+		int count=0;
+		int passes=0;
+		int flag;
+		
+		for(int i=1;i<N;i++) {
+			passes++
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

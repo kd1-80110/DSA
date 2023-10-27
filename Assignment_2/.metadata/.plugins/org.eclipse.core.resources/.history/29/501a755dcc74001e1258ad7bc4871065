@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class Queue {
+	private int arr[];
+	private int rear;
+	private int front;
+	
+
+}

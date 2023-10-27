@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+public class LinearQueueMain {
+
+	public static void main(String[] args) {
+		Queue q=new Queue(4);
+		int choice;
+
+	}
+
+}
