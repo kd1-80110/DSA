@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class Stack {
+	DoublyCircularLinkedList list;
+	
+	public Stack() {
+		
+	}
+}

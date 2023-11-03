@@ -1,0 +1,18 @@
+package com.sunbeam;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DoublyCircularLinkedList l1=new DoublyCircularLinkedList();
+		l1.addFirst(40);
+		l1.addFirst(30);
+		l1.addFirst(20);
+		l1.addFirst(10);
+//		l1.addPosition(50, 6);
+		l1.deletePosition(, 3);
+		l1.forwardDisplay();
+		l1.reverseDisplay();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Deque dq=new Deque();
+		dq.pushFront(50);
+		dq.pushFront(40);
+		dq.pushFront(30);
+		dq.pushFront(20);
+		dq.pushFront(10);
+		
+		dq.popRear();
+		
+		dq.peek();
+
+	}
+
+}

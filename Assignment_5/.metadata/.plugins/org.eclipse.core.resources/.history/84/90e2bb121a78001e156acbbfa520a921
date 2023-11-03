@@ -1,0 +1,6 @@
+package com.sunbeam;
+
+public class Main {
+	BinaryTreeSearch bst=new BinaryTreeSearch();
+	bst.
+}

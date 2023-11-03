@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sunbeam.DoublyCircularLinkedList.Node"/>
+    <fullyQualifiedTypeName name="com.sunbeam.DoublyCircularLinkedList"/>
+    <fullyQualifiedTypeName name="com.sunbeam.Stack"/>
+    <fullyQualifiedTypeName name="com.sunbeam.Queue"/>
+    <fullyQualifiedTypeName name="com.sunbeam.DoublyLinearLinkedList"/>
+    <fullyQualifiedTypeName name="com.sunbeam.Deque"/>
+    <fullyQualifiedTypeName name="com.sunbeam.BinaryTreeSearch"/>
+</qualifiedTypeNameHistroy>

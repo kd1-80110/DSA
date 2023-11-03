@@ -1,0 +1,9 @@
+package com.sunbeam;
+
+public class Main {
+	public static void main(String[] args) {
+		BinaryTreeSearch bst=new BinaryTreeSearch();
+	}
+	
+	
+}

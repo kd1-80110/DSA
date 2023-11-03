@@ -1,0 +1,13 @@
+package com.sunbeam;
+
+public class Stack {
+	DoublyCircularLinkedList l1;
+	
+	public Stack() {
+		l1=new DoublyCircularLinkedList();
+	}
+	
+	public boolean isEmpty() {
+		
+	}
+}

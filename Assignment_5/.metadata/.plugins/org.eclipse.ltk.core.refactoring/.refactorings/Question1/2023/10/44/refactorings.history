@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DoublyCircularLinkedList.java&apos; to &apos;Question2/src/com.sunbeam&apos;&#x0A;- Original project: &apos;Question1&apos;&#x0A;- Destination element: &apos;Question2/src/com.sunbeam&apos;&#x0A;- Original element: &apos;com.sunbeam.DoublyCircularLinkedList.java&apos;" description="Copy compilation unit" destination="=Question2/src&lt;com.sunbeam" element1="/src&lt;com.sunbeam{DoublyCircularLinkedList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1698758788628" units="1" version="1.0"/>
+</session>

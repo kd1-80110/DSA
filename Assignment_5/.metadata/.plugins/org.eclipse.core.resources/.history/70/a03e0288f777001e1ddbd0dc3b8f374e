@@ -1,0 +1,12 @@
+package com.sunbeam;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Deque dq=new Deque();
+		dq.pushFront(50);
+		dq.pushFront(30);
+
+	}
+
+}

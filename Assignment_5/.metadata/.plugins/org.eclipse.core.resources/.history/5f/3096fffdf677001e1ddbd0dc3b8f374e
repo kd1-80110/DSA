@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+public class Deque {
+	DoublyLinearLinkedList list;
+	
+	public Deque() {
+		list=new DoublyLinearLinkedList();
+	}
+	
+	public boolean isEmpty() {
+		return list.isEmpty();
+	}
+	
+	public void pushFrt(int value) {
+		list.addFirst(value);
+	}
+	
+	public void delete
+}
